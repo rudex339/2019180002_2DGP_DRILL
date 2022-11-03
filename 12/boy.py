@@ -109,7 +109,7 @@ next_state = {
 class Boy:
 
     def __init__(self):
-        self.x, self.y = 800 // 2, 90
+        self.x, self.y = 800 // 2, 70
         self.frame = 0
         self.dir, self.face_dir = 0, 1
         self.image = load_image('animation_sheet.png')
